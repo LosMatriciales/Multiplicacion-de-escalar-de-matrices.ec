@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Multiplicación de Escalar de Matrices</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(var(--columns), 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .grid-item {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiplicación de Escalar de Matrices</h1>
+    
+    <h2>Definición</h2>
+    <p>La multiplicación de un escalar por una matriz consiste en multiplicar cada elemento de la matriz por un número escalar.</p>
+    
+    <img src="Matrix_multiplication_.gif" alt="Multiplicación de escalar de matrices" width="300">
+    
+    <h2>Fórmula</h2>
+    <p>La fórmula para la multiplicación de un escalar por una matriz se define de la siguiente manera:</p>
+    <img src="formula.jpg" width="500">
+    
+    <h2>Ejemplo</h2>
+    <img src="ejemplo.png" alt="Ejemplo de multiplicación de escalar por matriz">
+    
+    <h2>Video de apoyo</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tjrm3HsqBXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Práctica</h2>
+    <p>Una vez entendida la operación de multiplicación de escalar por matrices, se presenta un ejercicio para que pueda reforzar los aprendizajes aprendidos.</p>
+    <h3>1. Calcular la multiplicación de la matriz A por el escalar k</h3>
+
+    <h4>Matriz A</h4>
+    <div id="matriz1"></div>
+    
+    <h4>Escalar k</h4>
+    <input type="number" id="escalar" value="2">
+    
+    <h4>Respuesta</h4>
+    <div id="matriz3"></div>
+    <button onclick="comprobar()" class="comprobar">Comprobar</button>
+
+    <h4>Respuesta Correcta</h4>
+    <div id="respuestaCorrecta"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
